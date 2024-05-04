@@ -1,0 +1,76 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(15,10,89);
+    background: linear-gradient(0deg, rgba(15,10,89,1) 0%, rgba(11,10,107,1) 39%, rgba(29,5,69,1) 100%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.section1{
+
+    background-color: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.section2{
+
+    background-color: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.gameControl{
+    font-size: 23px;
+    color: white;
+    border: 1px solid white;
+    height: 140px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px
+}
+
+button{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 40px;
+
+}
+
+
+
+
+
+
+
+
